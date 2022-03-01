@@ -15,7 +15,7 @@ pipeline{
 		stage("Maven"){
 			steps {
 
-				echo "Maven ... ... ..."
+				echo "Maven ... ... ... .."
 			}
 		}
 	
