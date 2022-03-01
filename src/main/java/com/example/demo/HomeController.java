@@ -71,7 +71,7 @@ public class HomeController {
 //		
 		System.out.println(result);
 		
-		return "Post Smeeee + testt + another pulll";
+		return "Post Smeeee + testt + another pullll";
 	}
 	
 	
