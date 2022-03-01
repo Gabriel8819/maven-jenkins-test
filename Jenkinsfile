@@ -4,21 +4,9 @@ pipeline{
 	stages {
 		stage("Build"){
 			steps {
-				echo 'Building'
+				mvn clean verify
 			}
 		}
-		stage("Test"){
-			steps {
-				echo "Testing ....."
-			}
-		}
-		stage("Maven"){
-			steps {
-
-				echo "Maven ... ... ... .."
-			}
-		}
-	
 	}
 		
 }
